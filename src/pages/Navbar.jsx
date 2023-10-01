@@ -1,6 +1,6 @@
 import header from "../assets/img/Header.png";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <div className="fixed top-0 w-full z-10">
       <div className="w-full bg-gray-300 pt-3 ">
@@ -16,7 +16,7 @@ const Navbar = (props) => {
               <span className="font-semibold">694 897 01</span>
             </div>
             <div className="mr-5">
-              <i class="fa-solid fa-envelope mr-2 text-sky-500"></i>
+              <i className="fa-solid fa-envelope mr-2 text-sky-500"></i>
               <span className="font-semibold">info@visiableone.com</span>
             </div>
             <button className="px-5 py-2 bg-green-500 rounded-lg font-semibold text-white">

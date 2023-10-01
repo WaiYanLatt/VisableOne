@@ -5,8 +5,9 @@ import Ecommarce from "../assets/img/shop.png";
 import Computer from "../assets/img/laptop.png";
 import Computer1 from "../assets/img/laptopphoto.png";
 import table from "../assets/img/table.png";
+import Cupid from "../assets/img/cubid.png";
 
-const Services = (props) => {
+const Services = () => {
   return (
     <div>
       <section className="mt-10">
@@ -72,13 +73,61 @@ const Services = (props) => {
                 <br /> Debitis eos, doloremque deleniti nostrum est provident
                 blanditiis,
                 <br /> suscipit labore consectetur dolorem consequatur, rem vel
-                quam dolor aperiam.
-                <br /> Impedit ipsam vitae consequuntur.
+                quam dolor aperiam.Impedit ipsam vitae consequuntur.
               </p>
-              <button className="px-10 py-3 bg-sky-500 mt-5 rounded-full text-white font-semibold">TOUR TO WEBSITE</button>
+              <button className="px-10 py-3 bg-sky-500 mt-5 rounded-full text-white font-semibold">
+                TOUR TO WEBSITE
+              </button>
             </div>
             <div>
-                <img src={table} alt="" className="ml-32"/>
+              <img src={table} alt="" className="ml-32" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="my-10">
+        <div className="container mx-auto px-28">
+          <div className="grid grid-cols-2 items-center justify-between">
+            <div>
+              <img src={Cupid} alt="" className="w-96" />
+            </div>
+            <div>
+              <div className="flex items-center">
+                <h1 className="font-semibold text-4xl">OUR</h1>
+                <span className="font-semibold text-4xl text-sky-500 ml-3">
+                  CHALLENGES
+                </span>
+              </div>
+              <div className="font-semibold flex items-center mt-5 bg p-3 shadow-md rounded-lg">
+                <span className="text-3xl text-gray-300">01.</span>
+                <p className="text-lg text-gray-300 ml-10">
+                  Export/Import From Old Website.
+                </p>
+              </div>
+              <div className="font-semibold flex items-center mt-10  p-3 shadow-md rounded-lg">
+                <span className="text-3xl text-sky-500">02.</span>
+                <p className="text-lg  ml-10">Product Bandle.</p>
+              </div>
+              <div className="font-semibold flex items-center mt-10  p-3 shadow-md rounded-lg">
+                <span className="text-3xl text-sky-500">03.</span>
+                <p className="text-lg  ml-10">Data Processing.</p>
+              </div>
+              <div className="font-semibold flex items-center mt-10  p-3 shadow-md rounded-lg">
+                <span className="text-3xl text-sky-500">04.</span>
+                <p className="text-lg  ml-10">
+                  Export/Import From Old Website.
+                </p>
+              </div>
+              <div className="font-semibold flex items-center mt-10  p-3 shadow-md rounded-lg">
+                <span className="text-3xl text-sky-500">05.</span>
+                <p className="text-lg  ml-10">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                  fuga.
+                </p>
+              </div>
+              <button className="px-10 py-3 bg-sky-500 mt-5 rounded-full text-white font-semibold">
+                VIEW MORE
+              </button>
             </div>
           </div>
         </div>
